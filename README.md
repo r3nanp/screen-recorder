@@ -1,7 +1,7 @@
 # Electron Screen Recorder (javascript version)
 ⚡ A app built made in Electron with Javascript
 
-![r3nanp](https://img.shields.io/badge/r3nanp--electron--javascript--screen--recorder)
+![r3nanp](https://img.shields.io/badge/r3nanp-electron-javascript-screen--recorder)
 
 ## Technologies
 - Web Technologies (HTML, CSS, JS)
