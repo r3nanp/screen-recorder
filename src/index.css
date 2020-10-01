@@ -26,6 +26,9 @@ h4,
 h5,
 h6 {
   font-family: 'Roboto', sans-serif;
+  line-height: 1.5rem;
+  padding-top: 32px;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -52,6 +55,11 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+  transition: 0.5;
+}
+
+button:hover {
+  background: #5C2EB8;
 }
 
 button + button {
@@ -63,8 +71,14 @@ button + button {
   background: blue;
   border: none;
   outline: none;
+  transition: 0.5;
+}
+
+#selectBtn:hover {
+  background: darkblue;
 }
 
 video {
   width: 100%;
+  margin: 10px;
 }
