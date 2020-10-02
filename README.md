@@ -28,5 +28,11 @@ yarn or npm install
 yarn start or npm run start
 ```
 
+```
+# Make the app to your operating system
+
+yarn make or npm run make
+```
+
 ## Screenshot
   <img src="./.github/screenshot.png">
