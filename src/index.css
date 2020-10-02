@@ -39,7 +39,7 @@ div {
 }
 
 button {
-  width: 100%;
+  width: 70%;
   border-radius: 5px;
   padding: 10px;
   background: #6633cc;
@@ -71,6 +71,6 @@ button + button {
 }
 
 video {
-  width: 100%;
+  width: 80%;
   margin: 10px;
 }
