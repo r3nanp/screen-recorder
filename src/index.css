@@ -10,21 +10,13 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-body,
-input,
-button {
+body, input, button {
   text-align: center;
   padding-top: 20px;
   font: 400 16px 'Roboto';
 }
 
-strong,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+strong, h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5rem;
   padding-top: 32px;
