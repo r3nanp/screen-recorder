@@ -1,10 +1,14 @@
+<div align="center" style="display: flex">
+
+  ![r3nanp](https://img.shields.io/badge/r3nanp-electron--screen--recorder-blue)
+
+  ![license mit](https://img.shields.io/github/license/r3nanp/electron-screen-recorder?color=blue&label=LICENSE&logo=github&style=flat-square)
+
+</div>
+
 # Electron Screen Recorder (javascript version)
 
 ⚡ A app built made in Electron with Javascript
-
-![r3nanp](https://img.shields.io/badge/r3nanp-electron--screen--recorder-blue)
-
-![license mit](https://img.shields.io/github/license/r3nanp/electron-screen-recorder?color=blue&label=LICENSE&logo=github&style=flat-square)
 
 ## Technologies
 
@@ -40,11 +44,12 @@ yarn make or npm run make
 
 ## Download
 
-  <a href="https://github.com/r3nanp/electron-screen-recorder/releases/tag/1.0">Download</a>
+<a href="https://github.com/r3nanp/electron-screen-recorder/releases/tag/1.0">Download</a>
 
 ## Screenshot
 
   <img src="./.github/screenshot.png">
 
 ### Typescript + React version (not completed)
-  <a href="https://github.com/r3nanp/electron-typescript-screen-recorder">TS Version</a>
+
+<a href="https://github.com/r3nanp/electron-typescript-screen-recorder">TS Version</a>
