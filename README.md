@@ -17,7 +17,7 @@
 ```
 # Clone repository
 
-git clone https://github.com/r3nanp/electron-javascript-screen-recorder.git
+git clone https://github.com/r3nanp/electron-screen-recorder.git
 ```
 
 ```
