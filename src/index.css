@@ -16,15 +16,17 @@ body, input, button {
   font: 400 16px 'Roboto';
 }
 
-strong, h1, h2, h3, h4, h5, h6 {
+h1{
   font-family: 'Roboto', sans-serif;
   line-height: 1.5rem;
+  margin-bottom: 30px;
   padding-top: 32px;
   color: #fff;
   font-weight: 700;
 }
 
 div {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,6 +73,6 @@ button + button {
 }
 
 video {
-  width: 80%;
+  width: 70%;
   margin: 10px;
 }

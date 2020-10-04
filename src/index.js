@@ -19,7 +19,10 @@ const createWindow = () => {
   })
 
   mainWindow.loadFile(path.join(__dirname, 'index.html'))
-  mainWindow.removeMenu()
+
+  if (process.env.NODE_ENV === 'production') {
+    mainWindow.removeMenu()
+  }
 }
 
 app.on('ready', createWindow)
