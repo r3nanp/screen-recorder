@@ -12,6 +12,9 @@ const createWindow = () => {
     minWidth: 1000,
     minHeight: 600,
     icon: __dirname + '/assets/camera.png',
+    darkTheme: true,
+    autoHideMenuBar: true,
+    backgroundColor: '#41414d',
     webPreferences: {
       nodeIntegration: true,
       enableRemoteModule: true,
