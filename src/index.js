@@ -1,8 +1,7 @@
 const { app, BrowserWindow } = require('electron')
-const path = require('path')
+const { join } = require('path')
 
 if (require('electron-squirrel-startup')) {
-  // eslint-disable-line global-require
   app.quit()
 }
 
@@ -11,17 +10,17 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     minWidth: 1000,
     minHeight: 600,
-    icon: __dirname + '/assets/camera.png',
+    icon: join(__dirname, '/build/video-camera.png'),
     darkTheme: true,
-    autoHideMenuBar: true,
     backgroundColor: '#41414d',
     webPreferences: {
       nodeIntegration: true,
       enableRemoteModule: true,
+      worldSafeExecuteJavaScript: true,
     },
   })
 
-  mainWindow.loadFile(path.join(__dirname, 'index.html'))
+  mainWindow.loadFile(join(__dirname, 'index.html'))
 
   if (process.env.NODE_ENV === 'production') {
     mainWindow.removeMenu()
