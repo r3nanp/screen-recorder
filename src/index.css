@@ -3,9 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   color: #e1e1e6;
-  -webkit-font-smoothing: antialiased;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -24,23 +24,17 @@ h1{
   font-weight: 700;
 }
 
-div {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 #main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  height: 100vh;
 }
 
 button {
-  width: 70%;
+  width: 50%;
   border-radius: 5px;
   padding: 10px;
   background: #6633cc;
@@ -48,7 +42,7 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
-  transition: 0.5;
+  transition: 0.3s;
 }
 
 button:hover {
@@ -60,11 +54,11 @@ button + button {
 }
 
 #selectBtn {
-  margin-top: 20px;
+  margin: 20px 0;
   background: blue;
   border: none;
   outline: none;
-  transition: 0.5;
+  transition: 0.3s;
 }
 
 #selectBtn:hover {
