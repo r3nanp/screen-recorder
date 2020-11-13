@@ -10,7 +10,7 @@
     "make": "cross-env NODE_ENV=production electron-forge make",
     "publish": "electron-forge publish",
     "lint": "eslint --ext .js src/ electron/",
-    "test": "jest"
+    "test": "jest --detectOpenHandles"
   },
   "keywords": [],
   "author": {
