@@ -13,6 +13,7 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': 'error',
-    'space-before-function-paren': 'off'
+    'space-before-function-paren': 'off',
+    'comma-dangle': 'off'
   },
 }
