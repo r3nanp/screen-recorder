@@ -1,6 +1,7 @@
 const { desktopCapturer, remote } = require('electron')
-const { dialog, Menu } = remote
 const { writeFile } = require('fs')
+
+const { dialog, Menu } = remote
 
 let mediaRecorder
 const recordedChunks = []
@@ -8,7 +9,7 @@ const recordedChunks = []
 const videoElement = document.querySelector('video')
 const startBtn = document.getElementById('startBtn')
 
-startBtn.onclick = e => {
+startBtn.onclick = () => {
   mediaRecorder.start()
   startBtn.classList.add('is-danger')
   startBtn.innerText = 'Recording'
@@ -16,7 +17,7 @@ startBtn.onclick = e => {
 
 const stopBtn = document.getElementById('stopBtn')
 
-stopBtn.onclick = e => {
+stopBtn.onclick = () => {
   mediaRecorder.stop()
   startBtn.classList.remove('is-danger')
   startBtn.innerText = 'Start'
