@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Screen Recorder</title>
@@ -10,18 +10,16 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div>
+    <div id="main">
       <h1>⚡ Screen Recorder</h1>
-      <div id="main">
-        <video></video>
+      <video></video>
 
-        <button id="startBtn" class="button is-primary">Start</button>
-        <button id="stopBtn" class="button is-warning">Stop</button>
+      <button id="startBtn" class="button is-primary">Start</button>
+      <button id="stopBtn" class="button is-warning">Stop</button>
 
-        <button id="selectBtn" class="button is-text">
-          Choose a video source
-        </button>
-      </div>
+      <button id="selectBtn" class="button is-text">
+        Choose a video source
+      </button>
     </div>
     <script defer src="render.js"></script>
   </body>
