@@ -4,7 +4,7 @@
 name: Electron CI
 
 on:
-  [push] 
+  [push]
 
 jobs:
   build:
@@ -22,5 +22,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: yarn
+    - run: yarn test
+    - run: yarn dev:electron
     - run: yarn make
     - run: yarn package
