@@ -19,7 +19,7 @@
 - Web Technologies (HTML, CSS, JS)
 - Electron
 - Electron API (Remote, desktopCapturer, dialog)
-- Eslint API
+- Eslint
 - prettier
 
 ## How to Fork the project and contribute 💪
