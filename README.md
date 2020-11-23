@@ -1,12 +1,12 @@
 <div align="center">
-  
+
   <div style="display:flex;">
 
   ![r3nanp](https://img.shields.io/badge/r3nanp-electron--screen--recorder-blue)
 
   ![license mit](https://img.shields.io/github/license/r3nanp/electron-screen-recorder?color=blue&label=LICENSE&logo=github&style=flat-square)
   </div>
-  
+
 # Electron Screen Recorder
 
 ⚡ A app built made in Electron with Javascript
@@ -47,7 +47,7 @@ yarn make or npm run make
 
 ## Download
 
-<a href="https://github.com/r3nanp/electron-screen-recorder/releases/tag/1.0">Download</a>
+<a href="https://github.com/r3nanp/electron-screen-recorder/releases/tag/1.3">Download</a>
 
 ## Screenshot
 
