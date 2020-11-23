@@ -2,26 +2,19 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  border: none;
+  outline: none;
 }
 
 body {
-  color: #e1e1e6;
-  font-family: 'Roboto', sans-serif;
+  background: #191622;
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
 }
 
 body, input, button {
   text-align: center;
-  padding-top: 20px;
-  font: 400 16px 'Roboto';
-}
-
-h1{
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.5rem;
-  margin-bottom: 30px;
-  padding-top: 32px;
-  color: #fff;
-  font-weight: 700;
+  font: 600 16px 'Open Sans';
 }
 
 #main {
@@ -29,24 +22,30 @@ h1{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100%;
+}
 
-  height: 100vh;
+#main strong {
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: #E1E1E6;
 }
 
 button {
-  width: 50%;
+  width: 60%;
   border-radius: 5px;
   padding: 10px;
   background: #6633cc;
   color: #fff;
   cursor: pointer;
-  border: none;
-  outline: none;
   transition: 0.3s;
 }
 
 button:hover {
-  background: #5C2EB8;
+  background: #5A4B81;
 }
 
 button + button {
@@ -55,17 +54,18 @@ button + button {
 
 #selectBtn {
   margin: 20px 0;
-  background: blue;
+  background: #E96379;
   border: none;
   outline: none;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 #selectBtn:hover {
-  background: darkblue;
+  background: #FF79C6;
 }
 
 video {
   width: 70%;
+  height: 80%;
   margin: 10px;
 }
