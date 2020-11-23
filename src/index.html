@@ -2,16 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Screen Recorder</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="index.css" />
+    <title>Screen Recorder</title>
   </head>
   <body>
     <div id="main">
-      <h1>⚡ Screen Recorder</h1>
+      <strong>⚡ Screen Recorder</strong>
       <video></video>
 
       <button id="startBtn" class="button is-primary">Start</button>
@@ -21,6 +25,6 @@
         Choose a video source
       </button>
     </div>
-    <script defer src="render.js"></script>
+    <script defer src="../electron/render.js"></script>
   </body>
 </html>
