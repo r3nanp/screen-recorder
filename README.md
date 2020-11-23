@@ -71,7 +71,7 @@ yarn make or npm run make
 
 ### Download
 
-<a href="https://github.com/r3nanp/electron-screen-recorder/releases/tag/1.3">Download</a>
+<a href="https://github.com/r3nanp/electron-screen-recorder/releases/tag/2.0">Download</a>
 
 ### Screenshot
 
