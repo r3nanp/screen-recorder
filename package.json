@@ -3,11 +3,11 @@
   "productName": "Screen Recorder",
   "version": "1.0.0",
   "description": "A app to capture the screen",
-  "main": "src/index.js",
+  "main": "electron/index.js",
   "scripts": {
     "dev:electron": "cross-env NODE_ENV=development electron-forge start",
-    "package": "electron-forge package",
     "make": "cross-env NODE_ENV=production electron-forge make",
+    "package": "electron-forge package",
     "publish": "electron-forge publish",
     "lint": "eslint --ext .js src/ electron/",
     "test": "jest --detectOpenHandles"
