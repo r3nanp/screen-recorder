@@ -1,8 +1,8 @@
 <div align="center">
 
-# Electron Screen Recorder
+# ⚡ Electron Screen Recorder
 
-⚡ A app built made in Electron with Javascript
+A app built made in Electron with Javascript
 
 </div>
 
