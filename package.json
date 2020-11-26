@@ -7,7 +7,7 @@
   "scripts": {
     "dev:electron": "cross-env NODE_ENV=development electron-forge start",
     "build": "cross-env NODE_ENV=production electron-forge make",
-    "package": "electron-forge package",
+    "package": "yarn build && electron-builder build --publish never",
     "postinstall": "electron-builder install-app-deps",
     "publish": "electron-forge publish",
     "lint": "eslint --ext .js src/ electron/",
