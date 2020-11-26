@@ -8,21 +8,20 @@ on:
 
 jobs:
   build:
+    name: Electron app
 
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 15.x]
+        os: [macos-latest, ubuntu-latest, windows-latest]
 
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Use Node.js 12
       uses: actions/setup-node@v1
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: "12"
     - run: yarn
     - run: yarn dev:electron
-    - run: yarn test
-    - run: yarn make
-    - run: yarn package
+    - run: yarn build
