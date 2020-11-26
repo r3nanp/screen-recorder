@@ -2,13 +2,15 @@ const electron = require('electron')
 const { join } = require('path')
 const App = require('spectron').Application
 
-let app
+const path = join(__dirname, '..')
+jest.setTimeout(10000)
+let app = null
 
 beforeAll(() => {
   app = new App({
     path: electron,
 
-    args: [join(__dirname, '../index.html')],
+    args: [join(path, 'src', 'index.html')],
   })
 
   return app.start()
@@ -21,7 +23,7 @@ afterAll(() => {
 })
 
 test('displays appropriate text', async () => {
-  const text = await app.client.$('h1')
+  const text = await app.client.$('strong')
 
   const displayText = await text.getText()
 

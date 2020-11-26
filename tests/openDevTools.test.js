@@ -2,13 +2,15 @@ const electron = require('electron')
 const { join } = require('path')
 const App = require('spectron').Application
 
-let app
+const path = join(__dirname, '..')
+jest.setTimeout(10000)
+let app = null
 
 beforeAll(() => {
   app = new App({
     path: electron,
 
-    args: [join(__dirname, '../index.html')],
+    args: [join(path, 'electron', 'index.js')],
   })
 
   return app.start()
@@ -20,10 +22,9 @@ afterAll(() => {
   }
 })
 
-test('Must click in the buttons', async () => {
-  const button = await app.client.$('button')
+it('open dev tools', async () => {
+  expect.assertions(1)
 
-  button.click()
-
-  expect(button)
+  const isOpen = await app.webContents.isDevToolsOpened()
+  expect(isOpen).toEqual(false)
 })
