@@ -18,9 +18,6 @@ A app built made in Electron with Javascript
 
 - Web Technologies (HTML, CSS, JS)
 - Electron
-- Electron API (Remote, desktopCapturer, dialog)
-- Eslint
-- prettier
 
 ## How to Fork the project and contribute 💪
 
