@@ -3,6 +3,9 @@
   "productName": "Screen Recorder",
   "version": "1.0.0",
   "description": "A app to capture the screen",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Renan Pereira <renanmol87@gmail.com>",
   "main": "electron/index.js",
   "scripts": {
     "dev:electron": "cross-env NODE_ENV=development electron-forge start",
@@ -13,16 +16,11 @@
     "lint": "eslint --ext .js src/ electron/",
     "test": "jest --detectOpenHandles"
   },
-  "keywords": [],
-  "author": {
-    "name": "Renan Pereira",
-    "email": "renanmol87@gmail.com",
-    "url": "https://github.com/r3nanp"
-  },
-  "license": "MIT",
   "config": {
     "forge": {
-      "packagerConfig": {},
+      "packagerConfig": {
+        "executableName": "screen-recorder"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
