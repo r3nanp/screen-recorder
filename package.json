@@ -45,7 +45,8 @@
     "productName": "Screen Recorder",
     "files": [
       "electron/",
-      "src"
+      "dist/",
+      "src/"
     ],
     "win": {
       "target": [
