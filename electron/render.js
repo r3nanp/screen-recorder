@@ -67,12 +67,12 @@ async function selectSource(source) {
   mediaRecorder.onstop = handleStop
 }
 
-function handleDataAvailable(e) {
+const handleDataAvailable = e => {
   console.log('video data available')
   recordedChunks.push(e.data)
 }
 
-async function handleStop(e) {
+const handleStop = async e => {
   const blob = new Blob(recordedChunks, {
     type: 'video/webm; codecs=vp9',
   })

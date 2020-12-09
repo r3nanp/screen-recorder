@@ -1,11 +1,11 @@
 const { app, BrowserWindow, nativeImage } = require('electron')
 const { join, resolve } = require('path')
 
+const rootPath = resolve(__dirname, '..')
+
 if (require('electron-squirrel-startup')) {
   app.quit()
 }
-
-const rootPath = resolve(__dirname, '..')
 
 const createWindow = () => {
   const icon = nativeImage.createFromPath(`${app.getAppPath()}/build/icon.png`)
