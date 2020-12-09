@@ -2,8 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  border: none;
-  outline: none;
 }
 
 body {
@@ -12,40 +10,42 @@ body {
   height: 100vh;
 }
 
-body, input, button {
+*,
+button {
   text-align: center;
   font: 600 16px 'Open Sans';
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
-#main {
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
 }
 
-#main strong {
+main strong {
   font-weight: 700;
   font-family: 'Lato', sans-serif;
   margin-top: 35px;
   margin-bottom: 30px;
   font-size: 35px;
-  color: #E1E1E6;
+  color: #e1e1e6;
 }
 
 button {
-  width: 60%;
+  width: 50%;
   border-radius: 5px;
   padding: 10px;
   background: #6633cc;
   color: #fff;
-  cursor: pointer;
-  transition: 0.3s;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-  background: #5A4B81;
+  background: #5a4b81;
 }
 
 button + button {
@@ -54,18 +54,15 @@ button + button {
 
 #selectBtn {
   margin: 20px 0;
-  background: #E96379;
-  border: none;
-  outline: none;
-  transition: all 0.3s;
+  background: #e96379;
+  transition: background-color 0.3s;
 }
 
 #selectBtn:hover {
-  background: #FF79C6;
+  background: #ff79c6;
 }
 
 video {
-  width: 70%;
-  height: 80%;
+  width: 100%;
   margin: 10px;
 }
