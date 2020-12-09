@@ -6,21 +6,22 @@
   "keywords": [],
   "license": "MIT",
   "author": "Renan Pereira <renanmol87@gmail.com>",
-  "main": "dist/main.js",
+  "main": "./dist/main.js",
   "scripts": {
-    "build": "rimraf dist && npm run build:electron",
+    "build": "rimraf dist && npm-run-all -p build:electron",
     "build:electron": "cross-env NODE_ENV=production webpack --config webpack/electron.webpack.js",
     "dev:electron": "cross-env NODE_ENV=development webpack --config webpack/electron.webpack.js && electron .",
     "package": "yarn build && electron-builder build --publish never",
     "postinstall": "electron-builder install-app-deps",
-    "publish": "electron-forge publish",
     "lint": "eslint --ext .js electron",
     "test": "jest --detectOpenHandles"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "npm-run-all": "^4.1.5"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.9",
     "babel-loader": "^8.2.2",
     "cross-env": "^7.0.2",
     "electron": "10.1.3",
