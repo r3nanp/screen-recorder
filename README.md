@@ -45,7 +45,7 @@ $ git push origin <branch>
 ```
 # Clone repository
 
-$ git clone https://github.com/r3nanp/electron-screen-recorder.git
+$ git clone https://github.com/r3nanp/screen-recorder.git
 ```
 
 ```
@@ -63,7 +63,7 @@ yarn dev:electron or npm run dev:electron
 ```
 # Make the app to your operating system
 
-yarn make or npm run make
+yarn build or npm run build
 ```
 
 ### Download
