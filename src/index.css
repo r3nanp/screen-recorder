@@ -10,15 +10,6 @@ body {
   height: 100vh;
 }
 
-*,
-button {
-  text-align: center;
-  font: 600 16px 'Open Sans';
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
-
 main {
   display: flex;
   flex-direction: column;
@@ -36,6 +27,11 @@ main strong {
 }
 
 button {
+  text-align: center;
+  font: 600 16px 'Open Sans';
+  border: none;
+  outline: none;
+  cursor: pointer;
   width: 50%;
   border-radius: 5px;
   padding: 10px;
