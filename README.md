@@ -1,15 +1,15 @@
 <div align="center">
 
-# ⚡ Electron Screen Recorder
+# ⚡ Screen Recorder
 
-A app built made in Electron with Javascript
+A app built made in Electron with Javascript 💖
 
 </div>
 
 <div align="center">
 
-  ![r3nanp](https://img.shields.io/badge/r3nanp-electron--screen--recorder-blue?style=for-the-badge)
-  ![license mit](https://img.shields.io/github/license/r3nanp/electron-screen-recorder?color=blue&label=LICENSE&logo=github&style=for-the-badge)
+  ![r3nanp](https://img.shields.io/badge/r3nanp-screen--recorder-blue?style=for-the-badge&logo=electron)
+  ![license mit](https://img.shields.io/github/license/r3nanp/screen-recorder?color=blue&label=LICENSE&logo=github&style=for-the-badge)
 
 </div>
 
@@ -68,7 +68,7 @@ yarn make or npm run make
 
 ### Download
 
-<a href="https://github.com/r3nanp/electron-screen-recorder/releases/tag/2.1">Download</a>
+<a href="https://github.com/r3nanp/screen-recorder/releases/tag/2.1">Download</a>
 
 ### Screenshot
 
