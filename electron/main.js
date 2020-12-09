@@ -18,8 +18,7 @@ const createWindow = () => {
     icon,
     webPreferences: {
       nodeIntegration: true,
-      enableRemoteModule: true,
-      worldSafeExecuteJavaScript: true,
+      enableRemoteModule: true
     },
   })
 
