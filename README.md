@@ -2,7 +2,7 @@
 
 # ⚡ Screen Recorder
 
-A app built made in Electron with Javascript 💖
+A app to record your window written in **Electron and Javascript**
 
 </div>
 
@@ -16,8 +16,9 @@ A app built made in Electron with Javascript 💖
 ---
 ## Technologies used 🛠
 
-- Web Technologies (HTML, CSS, JS)
 - Electron
+- Javascript
+- Web Technologies
 
 ## How to Fork the project and contribute 💪
 
