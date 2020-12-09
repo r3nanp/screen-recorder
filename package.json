@@ -9,11 +9,11 @@
   "main": "electron/index.js",
   "scripts": {
     "dev:electron": "cross-env NODE_ENV=development electron-forge start",
-    "build": "cross-env NODE_ENV=production electron-forge make",
+    "build": "cross-env NODE_ENV=production electron-builder build",
     "package": "yarn build && electron-builder build --publish never",
     "postinstall": "electron-builder install-app-deps",
     "publish": "electron-forge publish",
-    "lint": "eslint --ext .js src/ electron/",
+    "lint": "eslint --ext .js electron/",
     "test": "jest --detectOpenHandles"
   },
   "config": {
@@ -68,5 +68,29 @@
     "jest": "^26.6.3",
     "prettier": "^2.1.2",
     "spectron": "^12.0.0"
+  },
+  "build": {
+    "appId": "com.r3nanp.screen-recorder",
+    "productName": "Screen Recorder",
+    "files": [
+      "electron/",
+      "src"
+    ],
+    "win": {
+      "target": ["portable"]
+    },
+    "mac": {
+      "category": "public.app-category.developer-tools"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Development"
+    },
+    "directories": {
+      "buildResources": "build",
+      "output": "out"
+    }
   }
 }
