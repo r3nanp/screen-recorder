@@ -8,8 +8,8 @@ A app built made in Electron with Javascript
 
 <div align="center">
 
-  ![r3nanp](https://img.shields.io/badge/r3nanp-electron--screen--recorder-blue)
-  ![license mit](https://img.shields.io/github/license/r3nanp/electron-screen-recorder?color=blue&label=LICENSE&logo=github&style=flat-square)
+  ![r3nanp](https://img.shields.io/badge/r3nanp-electron--screen--recorder-blue?style=for-the-badge)
+  ![license mit](https://img.shields.io/github/license/r3nanp/electron-screen-recorder?color=blue&label=LICENSE&logo=github&style=for-the-badge)
 
 </div>
 
@@ -68,7 +68,7 @@ yarn make or npm run make
 
 ### Download
 
-<a href="https://github.com/r3nanp/electron-screen-recorder/releases/tag/2.0">Download</a>
+<a href="https://github.com/r3nanp/electron-screen-recorder/releases/tag/2.1">Download</a>
 
 ### Screenshot
 
