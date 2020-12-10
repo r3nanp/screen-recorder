@@ -24,10 +24,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 140vh;
 }
 
 header {
+  margin: 10px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -54,8 +55,10 @@ label {
   width: 52px;
   height: 27px;
   background: grey;
+  float: right;
   border-radius: 100px;
   position: relative;
+  transform: translateY(9px);
 }
 
 label::after {
@@ -80,7 +83,7 @@ input:checked + label::after {
 }
 
 label::active:after {
-  width: 40px;
+  width: 45px;
 }
 
 button {
@@ -116,6 +119,6 @@ button + button {
 }
 
 video {
-  width: 80%;
-  margin: 5px;
+  width: 90%;
+  margin: 10px;
 }
