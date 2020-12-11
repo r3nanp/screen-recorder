@@ -13,7 +13,7 @@
     "dev:electron": "cross-env NODE_ENV=development webpack --config webpack/electron.webpack.js && electron .",
     "package": "yarn build && electron-builder build --publish never",
     "postinstall": "electron-builder install-app-deps",
-    "lint": "eslint --ext .js electron",
+    "lint": "eslint --ext .js electron/ src/",
     "test": "jest"
   },
   "config": {
