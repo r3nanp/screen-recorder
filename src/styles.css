@@ -17,6 +17,7 @@ html {
 body {
   background: var(--bg);
   font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 #root {
@@ -25,6 +26,23 @@ body {
   align-items: center;
   justify-content: center;
   height: 140vh;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #201c29;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.25);
 }
 
 header {
@@ -36,11 +54,10 @@ header {
 
 header .heading {
   font-weight: 700;
-  font-family: 'Lato', sans-serif;
-  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 20px 0 0 ;
   font-size: 35px;
   color: var(--text);
-  margin-right: 20px;
 }
 
 input[type='checkbox'] {
@@ -97,6 +114,7 @@ button {
   padding: 10px;
   background: var(--primary);
   color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transition: background-color 0.3s;
 }
 
