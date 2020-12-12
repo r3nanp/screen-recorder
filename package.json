@@ -1,7 +1,7 @@
 {
   "name": "screen-recorder",
   "productName": "Screen Recorder",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "A app to capture the screen",
   "keywords": [],
   "license": "MIT",
@@ -51,9 +51,9 @@
     "appId": "com.r3nanp.screen-recorder",
     "productName": "Screen Recorder",
     "files": [
-      "electron/",
+      "src/",
       "dist/",
-      "src/"
+      "electron"
     ],
     "win": {
       "target": [

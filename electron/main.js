@@ -30,11 +30,16 @@ const createWindow = () => {
         slashes: true,
       })
     )
-  } else {
-    throw new Error('Error to find HTML')
   }
 
   if (process.env.NODE_ENV === 'production') {
+    mainWindow.loadURL(
+      url.format({
+        pathname: join(rootPath, 'src', 'index.html'),
+        protocol: 'file:',
+        slashes: true,
+      })
+    )
     mainWindow.removeMenu()
   }
 }

@@ -18,8 +18,8 @@ startBtn.onclick = () => {
 
 stopBtn.onclick = () => {
   mediaRecorder.stop()
-  startBtn.classList.remove('is-danger')
-  startBtn.innerText = 'Stop Recording! ⏱'
+  stopBtn.classList.remove('is-danger')
+  stopBtn.innerText = 'Stop Recording! ⏱'
 }
 
 videoSelectBtn.onclick = getVideoSources
