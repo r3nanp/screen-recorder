@@ -78,6 +78,3 @@ yarn build or npm run build
 ### Download
 
 <a href="https://github.com/r3nanp/screen-recorder/releases/tag/2.3">Download</a>
-### Typescript + React version (not completed)
-
-<a href="https://github.com/r3nanp/electron-typescript-screen-recorder">TS Version</a>
