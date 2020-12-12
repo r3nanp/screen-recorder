@@ -51,9 +51,9 @@
     "appId": "com.r3nanp.screen-recorder",
     "productName": "Screen Recorder",
     "files": [
-      "electron/",
+      "src/",
       "dist/",
-      "src/"
+      "electron"
     ],
     "win": {
       "target": [
