@@ -7,8 +7,9 @@ A app to record your window written in **Electron and Javascript**
 </div>
 
 <div align="center">
-
+  
   ![r3nanp](https://img.shields.io/badge/r3nanp-screen--recorder-blue?style=for-the-badge&logo=electron)
+  ![build badge](https://img.shields.io/github/workflow/status/r3nanp/screen-recorder/Electron%20CI?style=for-the-badge&logo=github)
   ![license mit](https://img.shields.io/github/license/r3nanp/screen-recorder?color=blue&label=LICENSE&logo=github&style=for-the-badge)
 
 </div>
