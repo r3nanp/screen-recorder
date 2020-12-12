@@ -77,4 +77,4 @@ yarn build or npm run build
 
 ### Download
 
-<a href="https://github.com/r3nanp/screen-recorder/releases/tag/2.3">Download</a>
+<a href="https://github.com/r3nanp/screen-recorder/releases/tag/v2.3.0">Download</a>
