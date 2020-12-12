@@ -71,15 +71,13 @@ yarn dev:electron or npm run dev:electron
 
 yarn build or npm run build
 ```
-
-### Download
-
-<a href="https://github.com/r3nanp/screen-recorder/releases/tag/2.1">Download</a>
-
-### Screenshot
+### Layout
 
   <img src="./.github/screenshot.png">
 
+### Download
+
+<a href="https://github.com/r3nanp/screen-recorder/releases/tag/2.3">Download</a>
 ### Typescript + React version (not completed)
 
 <a href="https://github.com/r3nanp/electron-typescript-screen-recorder">TS Version</a>
