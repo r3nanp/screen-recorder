@@ -76,7 +76,7 @@
       "target": [
         "AppImage"
       ],
-      "category": "Development"
+      "category": "Utility"
     },
     "directories": {
       "buildResources": "build",
