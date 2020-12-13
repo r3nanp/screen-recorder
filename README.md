@@ -2,11 +2,9 @@
 <img src="./.github/icon.png" width="150" />
 </p>
 
-
 <h1 align="center">
 ⚡ Screen Recorder
 </h1>
-
 
 A Grafic User Interface to record your window written in **Electron and Javascript**
 
