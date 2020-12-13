@@ -6,7 +6,7 @@
 ⚡ Screen Recorder
 </h1>
 
-A Grafic User Interface to record your window written in **Electron and Javascript**
+A Grafic User Interface to record your window written in **Electron** and **Javascript**
 
 <div align="left">
 
@@ -16,35 +16,20 @@ A Grafic User Interface to record your window written in **Electron and Javascri
 
 </div>
 
+
+**How to contribute?**
+
+<a href="./.github/CONTRIBUTING.md">
+Check step by step
+</a>
+
 ---
 ## Technologies used 🛠
 
 - Electron
 - Javascript
 - Web Technologies
-
-## How to Fork the project and contribute 💪
-
-```
-# Create a new branch with your changes:
-
-$ git checkout -b <branch>
-```
-
-```
-# Save your changes and create a commit message telling you what you did:
-
-$ git commit -m "<commit>"
-```
-
-```
-# Submit your changes:
-
-$ git push origin <branch>
-```
----
-
-### How to run locally 🤔
+### How to run th app locally 🤔
 
 ```
 # Clone repository
@@ -67,11 +52,11 @@ yarn dev:electron or npm run dev:electron
 ```
 # Make the app to your operating system
 
-yarn build or npm run build
+yarn package or npm run package
 ```
 ### Layout
 
-  <img src="./.github/screenshot.png">
+<img src="./.github/screenshot.png">
 
 ### Download
 
