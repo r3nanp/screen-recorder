@@ -1,2 +1,5 @@
+*/.js
+./*.config.js
 node_modules
-out/
+dist
+webpack/*.js
