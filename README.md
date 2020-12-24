@@ -29,7 +29,8 @@ Check step by step
 - Electron
 - Javascript
 - Web Technologies
-### How to run th app locally 🤔
+
+### How to run the app locally 🤔
 
 ```
 # Clone repository
