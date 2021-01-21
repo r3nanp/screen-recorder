@@ -2,6 +2,8 @@ import { app, BrowserWindow, nativeImage } from 'electron'
 import { join, resolve } from 'path'
 import * as url from 'url'
 
+let mainWindow: BrowserWindow | null
+
 const rootPath = resolve(__dirname, '..')
 
 const createWindow = () => {
@@ -12,7 +14,7 @@ const createWindow = () => {
   }
 
   // Create the browser window.
-  const mainWindow = new BrowserWindow({
+  mainWindow = new BrowserWindow({
     maxWidth: 1100,
     maxHeight: 900,
     icon,
