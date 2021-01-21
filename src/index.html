@@ -11,7 +11,7 @@
   </head>
   <body class="h-screen">
     <main class="h-full flex flex-col align-center justify-center overflow-y-auto">
-      <header class="h-12 pt-4 flex align-center justify-center">
+      <header class="h-12 mt-4 flex align-center justify-center">
         <h1 class="text-2xl text-center mx-2 my-3 text-gray-100">
           Screen Recorder
         </h1>
@@ -19,23 +19,23 @@
 
       <video class="m-auto pt-2 w-9/12"></video>
 
-      <div class="flex flex-col align-center justify-center mx-auto">
+      <div class="flex flex-col align-center justify-center mx-auto my-2">
         <button
           id="startBtn"
-          class="p-2 bg-purple-600 rounded w-56 hover:bg-purple-700"
+          class="p-2 rounded w-56 transition bg-green-500 hover:bg-green-700"
         >
           Start
         </button>
         <button
           id="stopBtn"
-          class="p-2 mt-2 bg-purple-600 rounded w-56 hover:bg-purple-700"
+          class="p-2 mt-2 bg-red-500 transition rounded w-56 hover:bg-red-600"
         >
           Stop
         </button>
 
         <button
           id="selectBtn"
-          class="mt-4 p-2 w-56 rounded bg-red-500 hover:bg-red-600"
+          class="mt-4 p-2 w-56 transition rounded bg-purple-600 hover:bg-purple-800"
         >
           Choose a video source
         </button>
